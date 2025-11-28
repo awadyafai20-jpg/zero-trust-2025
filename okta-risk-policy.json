@@ -1,0 +1,12 @@
+JSON{
+  "name": "Phishing-Resistant Sign-in Policy",
+  "priority": 1,
+  "conditions": {
+    "riskScore": { "greaterThanOrEquals": 70 },
+    "device": { "managed": false }
+  },
+  "actions": {
+    "signOn": { "requireFactor": "PHISHING_RESISTANT" },
+    "session": { "maxAgeMinutes": 30 }
+  }
+}
