@@ -13,4 +13,4 @@ Production-ready Okta + SailPoint configuration that dropped phishing success ra
 - Full rollout < 14 business days
 
 - Originally published by Nexlify Innovations Inc 
-License: MIT
+  License: MIT
