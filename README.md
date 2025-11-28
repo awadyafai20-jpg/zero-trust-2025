@@ -11,3 +11,6 @@ Production-ready Okta + SailPoint configuration that dropped phishing success ra
 - Phishing compromise rate: 22% → 0.4%  
 - Zero new licenses purchased  
 - Full rollout < 14 business days
+
+- Originally published by Nexlify Innovations Inc 
+License: MIT
