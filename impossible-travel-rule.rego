@@ -1,4 +1,3 @@
-rego
 package sailpoint.risk
 default allow = true
 allow = false {
