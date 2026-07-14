@@ -19,10 +19,10 @@ can run and verify the logic themselves.
 ## Architecture
 
 Login event
-
 → Okta conditional access policy (device trust, risk score)
-
 → SailPoint identity risk attribute feed
+→ OPA/Rego policy evaluation (impossible-travel + device trust checks)
+→ Allow / Step-up auth / Deny
 
 The Okta policy (`okta-risk-policy.json`) and OPA/Rego logic
 (`impossible-travel-rule.rego`) represent two complementary layers of the
@@ -69,6 +69,3 @@ environment.
 ## License
 
 MIT
-→ OPA/Rego policy evaluation (impossible-travel + device trust checks)
-
-→ Allow / Step-up auth / Deny
