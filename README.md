@@ -50,7 +50,7 @@ opa test . -v
 
 This runs the included test suite against the Rego policy using the
 sample data in `test-scenarios/` — you can inspect exactly what's being
-Evaluate and see the pass/fail output yourself.
+evaluated and see the pass/fail output yourself.
 
 ## Test results
 
